@@ -1,1 +1,2 @@
-print("nfnTSggggggg=========================================================ggggggggggg")
+while True:
+    print("hello")
