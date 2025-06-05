@@ -24,7 +24,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt || echo "No requirements file found."
+          pip install requests  # 🔄 Explicitly install requests
 
       - name: Run OTA Update Script
-        run: |
-          python ota-update.py
+        run: python ota-update.py
