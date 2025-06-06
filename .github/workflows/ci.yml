@@ -28,3 +28,6 @@ jobs:
 
       - name: Run OTA Update Script
         run: python ota-update.py
+
+      - name: Run main.py (after OTA update)
+        run: python bin/main.py
