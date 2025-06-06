@@ -1,5 +1,5 @@
 import time
 
 while True:
-    print("18")
+    print(kk")
     time.sleep(1)  
